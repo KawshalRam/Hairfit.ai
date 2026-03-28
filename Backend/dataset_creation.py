@@ -8,7 +8,7 @@ plt.style.use('ggplot')
 plt.rcParams['figure.figsize'] = [12, 6]
 
 # Data concatenation
-path = r'C:\Users\kawsh\coursera-test\OneDrive\Desktop\Manipal\PROJECTS\HairFit.ai\hairfit-frontend\Backend\amazon'
+path = r'Backend\data'
 all_files = [x for x in os.listdir(path) if x.endswith(".csv")]
 
 li = []
